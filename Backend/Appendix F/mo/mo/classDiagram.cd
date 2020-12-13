@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="mo.Controllers.AvaliabilitiesController" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAVAkAAAABgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AvaliabilitiesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.CaseModelsController" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAACCAIAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Controllers\CaseModelsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.CustomersController" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAABAAAAABAAAAAAACAAAAAAAADAAA=</HashCode>
+      <FileName>Controllers\CustomersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.MobileTypesController" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAABAAAAAAAAIAAAAAAAgIAAAAAAAACAAA=</HashCode>
+      <FileName>Controllers\MobileTypesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.MonitoringPointsController" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAgABAAACAAAAAEAAIAAAAAAAAABA=</HashCode>
+      <FileName>Controllers\MonitoringPointsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.OrderLinesController" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAAAABAAAAAACAAAAAAAAAEAAIAAgAA=</HashCode>
+      <FileName>Controllers\OrderLinesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.OrdersController" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQQAAAAABAAAAAAAAAAAAAAAAAIAAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrdersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.PerformencesController" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABABAAAAAAAAABAAgAAEAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Controllers\PerformencesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Controllers.QualitiesController" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAgEAEAAAAAAAAQAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\QualitiesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Avaliability.Avaliability" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAAAACAAQAAAgA=</HashCode>
+      <FileName>Models\Avaliability\Avaliability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Avaliability.AvaliabilityDbContext" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Avaliability\AvaliabilityDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MobileDesign.CaseModel" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\MobileDesign\CaseModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MobileDesign.CaseModelDbContext" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MobileDesign\CaseModelDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MobileDesign.MobileType" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\MobileDesign\MobileType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MobileDesign.MobileTypeDbContext" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MobileDesign\MobileTypeDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MonitoringPoint.MonitoringPoint" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\MonitoringPoint\MonitoringPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.MonitoringPoint.MonitoringPointDbContext" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MonitoringPoint\MonitoringPointDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.OrderModel.Order" Collapsed="true">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAgA=</HashCode>
+      <FileName>Models\OrderModel\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.OrderModel.OrderDbContext" Collapsed="true">
+    <Position X="2.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderModel\OrderDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.OrderModel.OrderLine" Collapsed="true">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\OrderModel\OrderLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.OrderModel.OrderLineDbContext" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderModel\OrderLineDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Performence.Performence" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>Models\Performence\Performence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Performence.PerformenceDbContext" Collapsed="true">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\Performence\PerformenceDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Quality.Quality" Collapsed="true">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAQAAAAAQAAAgA=</HashCode>
+      <FileName>Models\Quality\Quality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Quality.QualityDbContext" Collapsed="true">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Quality\QualityDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.Customer" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAgAAAACAAAAAAAAAAAAAAAiAAAAgA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Models.CustomersDbContext" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CustomersDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Startup" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mo.Program" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

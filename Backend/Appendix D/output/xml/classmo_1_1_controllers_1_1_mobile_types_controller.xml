@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_mobile_types_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::MobileTypesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_mobile_types_controller_1a19f5ea3495bed031e55d709d079678db" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context" kindref="compound">MobileTypeDbContext</ref></type>
+        <definition>readonly MobileTypeDbContext mo.Controllers.MobileTypesController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="16" column="46" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1ae7c23199595f3a3033ad4db616513dd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.MobileTypesController.MobileTypesController</definition>
+        <argsstring>(MobileTypeDbContext context)</argsstring>
+        <name>MobileTypesController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context" kindref="compound">MobileTypeDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1a2b0bd976ba18792c9bb92d1d0c78e41c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;MobileType&gt; &gt; &gt; mo.Controllers.MobileTypesController.GetMobileType</definition>
+        <argsstring>()</argsstring>
+        <name>GetMobileType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1afdf39e5f0ebf7789c88781d216b441e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;MobileType&gt; &gt; mo.Controllers.MobileTypesController.GetMobileType</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetMobileType</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1a54f270531c8e7fb6f3b299a88b7c2ea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.MobileTypesController.PutMobileType</definition>
+        <argsstring>(int id, MobileType mobileType)</argsstring>
+        <name>PutMobileType</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref></type>
+          <declname>mobileType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1a0194cd9654c206f6df7fb5d778408104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;MobileType&gt; &gt; mo.Controllers.MobileTypesController.PostMobileType</definition>
+        <argsstring>(MobileType mobileType)</argsstring>
+        <name>PostMobileType</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref></type>
+          <declname>mobileType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1a5b7fc41b361887e67e50a7100227b68d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;MobileType&gt; &gt; mo.Controllers.MobileTypesController.DeleteMobileType</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteMobileType</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_mobile_types_controller_1ac88394531694bbfe15df7a15e25239d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.MobileTypesController.MobileTypeExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>MobileTypeExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.MobileTypesController</label>
+        <link refid="classmo_1_1_controllers_1_1_mobile_types_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="3">
+        <label>mo.Models.MobileDesign.MobileTypeDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.MobileTypesController</label>
+        <link refid="classmo_1_1_controllers_1_1_mobile_types_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypesController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a19f5ea3495bed031e55d709d079678db" prot="private" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a5b7fc41b361887e67e50a7100227b68d" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>DeleteMobileType</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a2b0bd976ba18792c9bb92d1d0c78e41c" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>GetMobileType</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1afdf39e5f0ebf7789c88781d216b441e3" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>GetMobileType</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1ac88394531694bbfe15df7a15e25239d2" prot="private" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>MobileTypeExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1ae7c23199595f3a3033ad4db616513dd5" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>MobileTypesController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a0194cd9654c206f6df7fb5d778408104" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>PostMobileType</name></member>
+      <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a54f270531c8e7fb6f3b299a88b7c2ea7" prot="public" virt="non-virtual"><scope>mo::Controllers::MobileTypesController</scope><name>PutMobileType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

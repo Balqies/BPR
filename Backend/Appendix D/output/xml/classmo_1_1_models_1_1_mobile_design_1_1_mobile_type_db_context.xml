@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::MobileDesign::MobileTypeDbContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a136bb82e06b76639e90b38c4021ede71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kindref="compound">MobileType</ref> &gt;</type>
+        <definition>DbSet&lt;MobileType&gt; mo.Models.MobileDesign.MobileTypeDbContext.MobileType</definition>
+        <argsstring></argsstring>
+        <name>MobileType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" line="11" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a662c4e3cd148fea6bd4923ca35167590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Models.MobileDesign.MobileTypeDbContext.MobileTypeDbContext</definition>
+        <argsstring>(DbContextOptions&lt; MobileTypeDbContext &gt; options)</argsstring>
+        <name>MobileTypeDbContext</name>
+        <param>
+          <type>DbContextOptions&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context" kindref="compound">MobileTypeDbContext</ref> &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" line="14" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a610818de36a019fd947eee644b59f3f2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void mo.Models.MobileDesign.MobileTypeDbContext.OnModelCreating</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" line="17" column="33" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mo.Models.MobileDesign.MobileTypeDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mo.Models.MobileDesign.MobileTypeDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" line="9" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileTypeDbContext.cs" bodystart="10" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a136bb82e06b76639e90b38c4021ede71" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::MobileTypeDbContext</scope><name>MobileType</name></member>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a662c4e3cd148fea6bd4923ca35167590" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::MobileTypeDbContext</scope><name>MobileTypeDbContext</name></member>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a610818de36a019fd947eee644b59f3f2" prot="protected" virt="non-virtual"><scope>mo::Models::MobileDesign::MobileTypeDbContext</scope><name>OnModelCreating</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_qualities_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::QualitiesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_qualities_controller_1a041aa6f233a0d70ca93e30fce36a62da" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context" kindref="compound">QualityDbContext</ref></type>
+        <definition>readonly QualityDbContext mo.Controllers.QualitiesController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="16" column="43" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a0a025f5532d08b405b5ec707d95ae379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.QualitiesController.QualitiesController</definition>
+        <argsstring>(QualityDbContext context)</argsstring>
+        <name>QualitiesController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context" kindref="compound">QualityDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a5a458df65d6038fb97883b0f40227011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;Quality&gt; &gt; &gt; mo.Controllers.QualitiesController.GetQuality</definition>
+        <argsstring>()</argsstring>
+        <name>GetQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a1b1f8c62f63e9b4d0cc7589f5c04c15c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Quality&gt; &gt; mo.Controllers.QualitiesController.GetQuality</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetQuality</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a81625724f89baa758347af1e3d0bb24e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.QualitiesController.PutQuality</definition>
+        <argsstring>(int id, Quality quality)</argsstring>
+        <name>PutQuality</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref></type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a9f9907019b232709ce7b02550f0564f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Quality&gt; &gt; mo.Controllers.QualitiesController.PostQuality</definition>
+        <argsstring>(Quality quality)</argsstring>
+        <name>PostQuality</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref></type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1a9a523a9d87d10ff56b6cf26194068745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_quality_1_1_quality" kindref="compound">Quality</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Quality&gt; &gt; mo.Controllers.QualitiesController.DeleteQuality</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteQuality</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_qualities_controller_1ab3b4505c9a2ac238284b8f2e7102bb0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.QualitiesController.QualityExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>QualityExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.QualitiesController</label>
+        <link refid="classmo_1_1_controllers_1_1_qualities_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>mo.Models.Quality.QualityDbContext</label>
+        <link refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.QualitiesController</label>
+        <link refid="classmo_1_1_controllers_1_1_qualities_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/QualitiesController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a041aa6f233a0d70ca93e30fce36a62da" prot="private" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a9a523a9d87d10ff56b6cf26194068745" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>DeleteQuality</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a5a458df65d6038fb97883b0f40227011" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>GetQuality</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a1b1f8c62f63e9b4d0cc7589f5c04c15c" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>GetQuality</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a9f9907019b232709ce7b02550f0564f7" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>PostQuality</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a81625724f89baa758347af1e3d0bb24e" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>PutQuality</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a0a025f5532d08b405b5ec707d95ae379" prot="public" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>QualitiesController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_qualities_controller_1ab3b4505c9a2ac238284b8f2e7102bb0d" prot="private" virt="non-virtual"><scope>mo::Controllers::QualitiesController</scope><name>QualityExists</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

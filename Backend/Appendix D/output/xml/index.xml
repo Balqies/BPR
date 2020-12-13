@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.20" xml:lang="en-US">
+  <compound refid="classmo_1_1_controllers_1_1_avaliabilities_controller" kind="class"><name>mo::Controllers::AvaliabilitiesController</name>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1aa421aaddc5230207f351619e162480fc" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad7538ab8ea74afb685fff1c9a8873833" kind="function"><name>AvaliabilitiesController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad3d30994fd1da8fd6e6997685dbde27d" kind="function"><name>GetAvaliabilitys</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ae58e52ddc2901d525667df2e09bb1f10" kind="function"><name>GetAvaliability</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a09f16114a05765037ce7d3b4f3f0a4b5" kind="function"><name>PutAvaliability</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1aafd3f2936a4c21aa69b01a2b95a81189" kind="function"><name>PostAvaliability</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a6001bf19f5b0f6995e4e9983d2f874bd" kind="function"><name>DeleteAvaliability</name></member>
+    <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a2cf068bfb7fcaa829b3996dcc7b006ac" kind="function"><name>AvaliabilityExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kind="class"><name>mo::Models::Avaliability::Avaliability</name>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ac3ece6e9ca4d5812ed58eb5dc9e8916e" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a3ac0a51ef10277ac87cceb9f75d82d6b" kind="property"><name>monitoringPointId</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ad44a9565910da680cb8a8625751839b5" kind="property"><name>planedProductionTime</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a4f80e7aab2732ea129362ff366af215c" kind="property"><name>runningTime</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a88eb2a80063c99508a04e9a6c12cc098" kind="property"><name>date</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context" kind="class"><name>mo::Models::Avaliability::AvaliabilityDbContext</name>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context_1aa115078c10447c3eb3e5a86a7d0fed42" kind="property"><name>Avaliabilitys</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context_1a09621c7f1b15f4a08652a1ba9f885037" kind="function"><name>AvaliabilityDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context_1a609fb6cd3cd031b805c3fe436c0dd59a" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kind="class"><name>mo::Models::MobileDesign::CaseModel</name>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_1a38457bbe110c1106db6a98a10be272bc" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_1a0081d7eb960d6c3942e1c341258b683c" kind="property"><name>description</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context" kind="class"><name>mo::Models::MobileDesign::CaseModelDbContext</name>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ada263fca17960e1df82c40926765b613" kind="property"><name>CaseModels</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1a494e0915f45ba757f75345ce2c97c465" kind="function"><name>CaseModelDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ae3e51fe55db16e21853e56b52da8191e" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_case_models_controller" kind="class"><name>mo::Controllers::CaseModelsController</name>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a164f6db5f4b1d9df71159eb50d6a4834" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1af1424dc95c114549e08a606c1f4e0620" kind="function"><name>CaseModelsController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a6d9d68b5a70bc978ba40077bd613f472" kind="function"><name>GetCaseModels</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a79bbb85fb85fa1d3a14437deaa73f151" kind="function"><name>GetCaseModel</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1aaa487ce0204c29988095ac0f8ac74b2e" kind="function"><name>PutCaseModel</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a09e370f8ba8c2a2b0408eb869ee43b9b" kind="function"><name>PostCaseModel</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1aa04d16c53d87d9b75970ab1378f6bf58" kind="function"><name>DeleteCaseModel</name></member>
+    <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a80b2a2445f4d75621c80a97f37bc415d" kind="function"><name>CaseModelExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_customer" kind="class"><name>mo::Models::Customer</name>
+    <member refid="classmo_1_1_models_1_1_customer_1af0f14eb02d1b42bea2b992da2413a926" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1adbf204ea0f7fd633975882f82b990a0c" kind="property"><name>firstName</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1a6988ddc8c5a5c1282ea42f405ec32258" kind="property"><name>lastName</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1a1b32a5aa360383310342cd7679b84a2a" kind="property"><name>email</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1a6f096e7793842290b1561b9a4cbd50f7" kind="property"><name>mobile</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1ae18752ddf4653c35ab676e40adf822ad" kind="property"><name>city</name></member>
+    <member refid="classmo_1_1_models_1_1_customer_1a44a7cb06a9ec30208ffcbe5e44c86a4f" kind="property"><name>dateOfCreation</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_customers_controller" kind="class"><name>mo::Controllers::CustomersController</name>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1a4125b3150bab4bb2863c2b6f3beb140c" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1ad2132100fb1add687cbe28b05b51dba5" kind="function"><name>CustomersController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1aa06c5daee1b18c36a19c79a4086cd3d1" kind="function"><name>GetCustomers</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1a207ba7765300147844f522bde9e1d66e" kind="function"><name>GetCustomer</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1a72ca0a3b175ef545789156019dd353d6" kind="function"><name>PutCustomer</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1a61b3b3103a85eff03ab3c4fe4e3ed1e7" kind="function"><name>PostCustomer</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1a671393a59f3beb418842e5e1932fba44" kind="function"><name>DeleteCustomer</name></member>
+    <member refid="classmo_1_1_controllers_1_1_customers_controller_1ade61de3abb76d7e436a6052659d478bc" kind="function"><name>CustomerExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_customers_db_context" kind="class"><name>mo::Models::CustomersDbContext</name>
+    <member refid="classmo_1_1_models_1_1_customers_db_context_1a60c87b20870099e03ed926f4a9a4b5ff" kind="property"><name>Customers</name></member>
+    <member refid="classmo_1_1_models_1_1_customers_db_context_1ab3538bf534bb264caefa94b4b8053adf" kind="function"><name>CustomersDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_customers_db_context_1a8069ddb63cdcf0587ceeac283b23c859" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kind="class"><name>mo::Models::MobileDesign::MobileType</name>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a3cee6c198b0cc282b682c9d21cc2a7ca" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a2f9e5200bea5be77f8eab8bc0c306e30" kind="property"><name>name</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context" kind="class"><name>mo::Models::MobileDesign::MobileTypeDbContext</name>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a136bb82e06b76639e90b38c4021ede71" kind="property"><name>MobileType</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a662c4e3cd148fea6bd4923ca35167590" kind="function"><name>MobileTypeDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_db_context_1a610818de36a019fd947eee644b59f3f2" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_mobile_types_controller" kind="class"><name>mo::Controllers::MobileTypesController</name>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a19f5ea3495bed031e55d709d079678db" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1ae7c23199595f3a3033ad4db616513dd5" kind="function"><name>MobileTypesController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a2b0bd976ba18792c9bb92d1d0c78e41c" kind="function"><name>GetMobileType</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1afdf39e5f0ebf7789c88781d216b441e3" kind="function"><name>GetMobileType</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a54f270531c8e7fb6f3b299a88b7c2ea7" kind="function"><name>PutMobileType</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a0194cd9654c206f6df7fb5d778408104" kind="function"><name>PostMobileType</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1a5b7fc41b361887e67e50a7100227b68d" kind="function"><name>DeleteMobileType</name></member>
+    <member refid="classmo_1_1_controllers_1_1_mobile_types_controller_1ac88394531694bbfe15df7a15e25239d2" kind="function"><name>MobileTypeExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point" kind="class"><name>mo::Models::MonitoringPoint::MonitoringPoint</name>
+    <member refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_1a13f5bbc7e61ec9417e436e2f226d9621" kind="property"><name>id</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_db_context" kind="class"><name>mo::Models::MonitoringPoint::MonitoringPointDbContext</name>
+    <member refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_db_context_1a25763974a7d985f3c274787483359b8f" kind="property"><name>MonitoringPoints</name></member>
+    <member refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_db_context_1a15f26fe037bf7996b97a87a25dafb61a" kind="function"><name>MonitoringPointDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_db_context_1a21440780ff1be7eecf053d7ce7585098" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_monitoring_points_controller" kind="class"><name>mo::Controllers::MonitoringPointsController</name>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1a553b2b6aec5d8495b7a2488f8bbbecd5" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1a2674260fca0bca6d1d34b93eae3ed8d0" kind="function"><name>MonitoringPointsController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1af9fec22c636aeaf216ec66993ec890fb" kind="function"><name>GetMonitoringPoints</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1acbf7aa1bb898995c00c7281e8aad732c" kind="function"><name>GetMonitoringPoint</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1af4a9263e9acb24a62b203e813658a28b" kind="function"><name>PutMonitoringPoint</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1afc2de31e3f49a54362056c4c29147a10" kind="function"><name>PostMonitoringPoint</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1a813b3ca61f1efaba756e05fbb79007a9" kind="function"><name>DeleteMonitoringPoint</name></member>
+    <member refid="classmo_1_1_controllers_1_1_monitoring_points_controller_1a0df85a0712e8fd1c9b5114dd56609f83" kind="function"><name>MonitoringPointExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_order_model_1_1_order" kind="class"><name>mo::Models::OrderModel::Order</name>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1ab85f1c6e34226ff8600d5669a259ee6e" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1adb5c54e427e0d120476fd010f51b1f9c" kind="property"><name>customerId</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1a73bb5b23c228e0d42a7c208c59f44ef1" kind="property"><name>date</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_order_model_1_1_order_db_context" kind="class"><name>mo::Models::OrderModel::OrderDbContext</name>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_db_context_1a5500795f344212e2f06d2614cdc1d5bc" kind="property"><name>Orders</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_db_context_1a790a0f062ccc1197e20cd12628902d1b" kind="function"><name>OrderDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_db_context_1aef1dd5f78a15cde9d5fdb0b8425cdbe3" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kind="class"><name>mo::Models::OrderModel::OrderLine</name>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a34f0bd5dbe5775969e98ebfb0cc67593" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a231527c0e4afea40585901763b89ce19" kind="property"><name>caseModelId</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1ae2a19ca74b9e043db405029464fb943d" kind="property"><name>mobileTypeId</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a14ac905fe3c71f240f055ffa3f2533a1" kind="property"><name>amount</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context" kind="class"><name>mo::Models::OrderModel::OrderLineDbContext</name>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context_1a603bcae05ae7b25d5fe162633d485b0f" kind="property"><name>OrderLines</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context_1a2c41ba40a2832cbf207d2b1e0659a824" kind="function"><name>OrderLineDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context_1a5f5cdb1951aaa77c00c3a88854069c41" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_order_lines_controller" kind="class"><name>mo::Controllers::OrderLinesController</name>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a7d086b44ab6254894f6b45fa6c3a242e" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1adb127ccaa91437231052d8e16a82f97d" kind="function"><name>OrderLinesController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a0ccc72ee0ae1b56e954bd704fb63890d" kind="function"><name>GetOrderLines</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a9bc6609fc750a20d93fb6d71dae88e64" kind="function"><name>GetOrderLine</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a776c21571139bad664d0cc78bad27538" kind="function"><name>PutOrderLine</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a08c0962619bd96369f5b842fe6b5def6" kind="function"><name>PostOrderLine</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a506952f227726442a4acfed2cffa95eb" kind="function"><name>DeleteOrderLine</name></member>
+    <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1ab39dab88da94c9d190bbbb70607b45eb" kind="function"><name>OrderLineExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_orders_controller" kind="class"><name>mo::Controllers::OrdersController</name>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1ae3376d8c057d094db067cc8668549144" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1acbd91f4fb911aacbcaddbd629300e0c7" kind="function"><name>OrdersController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1a05b6e8f81a1e65edf04beccdd8c41e0b" kind="function"><name>GetOrders</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1a0a5ca6d30c4072c322af93cd41323f97" kind="function"><name>GetOrder</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1a8bb8e1e48054c5f2d1a34dac1412a140" kind="function"><name>PutOrder</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1acf053eb36134e12f0853f9fdef18ae4d" kind="function"><name>PostOrder</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1ae95396fbcfc0bd2f042f9f8158264adf" kind="function"><name>DeleteOrder</name></member>
+    <member refid="classmo_1_1_controllers_1_1_orders_controller_1a2fd5f0b2a5e031663a9be531716bdb6a" kind="function"><name>OrderExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_performence_1_1_performence" kind="class"><name>mo::Models::Performence::Performence</name>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_1a9e0ab51365ef27cd4c9bafec821ded35" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_1a31082893729cbe9212f4ac2f759b2379" kind="property"><name>monitoringPointId</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_1ad8c2287481154606a5b7d4485762269c" kind="property"><name>actualOutput</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_1ac5e251ba319cfb1b2557c2e5533141af" kind="property"><name>thereticalOutput</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_1a76f4e393ef13bc132a7b9f9ca625ca74" kind="property"><name>date</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context" kind="class"><name>mo::Models::Performence::PerformenceDbContext</name>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context_1ab2d00e35b41f17579c5c259d8b50d435" kind="property"><name>Performence</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context_1aef5ae2534bab23be89a2a3881c9e33ec" kind="function"><name>PerformenceDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context_1affca1f5dfc4421d8b7d107a9865c6df8" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_performences_controller" kind="class"><name>mo::Controllers::PerformencesController</name>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1acc76f83cb3a4fef0de61b1e0b516220b" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1afe9833380c565f1a9beebe246b63f2aa" kind="function"><name>PerformencesController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1a2e6251b1a1a1612882985d177910676b" kind="function"><name>GetPerformence</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1a57a0c497775d9c733cb1251e7405f23b" kind="function"><name>GetPerformence</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1a0724ce346319df90cd4561bd2d3f10c3" kind="function"><name>PutPerformence</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1acdbeae558b0998b06352cbedaad695d4" kind="function"><name>PostPerformence</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1ad51582ff1260b7aaeb274c29ff662277" kind="function"><name>DeletePerformence</name></member>
+    <member refid="classmo_1_1_controllers_1_1_performences_controller_1a5aa5274884f0d9ee41feb74d21bf3871" kind="function"><name>PerformenceExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_program" kind="class"><name>mo::Program</name>
+    <member refid="classmo_1_1_program_1a7667bde14374cd5708479c9aba272d39" kind="function"><name>Main</name></member>
+    <member refid="classmo_1_1_program_1aab92a95ab42de8793115daf623effef5" kind="function"><name>CreateHostBuilder</name></member>
+  </compound>
+  <compound refid="classmo_1_1_controllers_1_1_qualities_controller" kind="class"><name>mo::Controllers::QualitiesController</name>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a041aa6f233a0d70ca93e30fce36a62da" kind="variable"><name>_context</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a0a025f5532d08b405b5ec707d95ae379" kind="function"><name>QualitiesController</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a5a458df65d6038fb97883b0f40227011" kind="function"><name>GetQuality</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a1b1f8c62f63e9b4d0cc7589f5c04c15c" kind="function"><name>GetQuality</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a81625724f89baa758347af1e3d0bb24e" kind="function"><name>PutQuality</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a9f9907019b232709ce7b02550f0564f7" kind="function"><name>PostQuality</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1a9a523a9d87d10ff56b6cf26194068745" kind="function"><name>DeleteQuality</name></member>
+    <member refid="classmo_1_1_controllers_1_1_qualities_controller_1ab3b4505c9a2ac238284b8f2e7102bb0d" kind="function"><name>QualityExists</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_quality_1_1_quality" kind="class"><name>mo::Models::Quality::Quality</name>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1aaa96a28b7edeaf6037b8b1c8eb9998ad" kind="property"><name>id</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a798087be76c076682954c15e5bc1d9bf" kind="property"><name>monitoringPointId</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1aae267c09641966f376d04505d54da2f6" kind="property"><name>goodProduct</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a9a626cb1af0a080c0f937e94fd315520" kind="property"><name>totalProduct</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a6a5700d01b9840ceb3b8a00b547d554a" kind="property"><name>date</name></member>
+  </compound>
+  <compound refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context" kind="class"><name>mo::Models::Quality::QualityDbContext</name>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context_1aac53b317f61c5a59795865265d8f009c" kind="property"><name>Quality</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context_1a62537e5089dbd4ea06b138b751128148" kind="function"><name>QualityDbContext</name></member>
+    <member refid="classmo_1_1_models_1_1_quality_1_1_quality_db_context_1a6bd5110b7affde67673d5fbdec2fdc82" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="classmo_1_1_startup" kind="class"><name>mo::Startup</name>
+    <member refid="classmo_1_1_startup_1a6e5970a93ed0591274b447842ccedf9f" kind="property"><name>Configuration</name></member>
+    <member refid="classmo_1_1_startup_1a8f759bab2a6cc883dd2851bf96ff12c6" kind="function"><name>Startup</name></member>
+    <member refid="classmo_1_1_startup_1a5da01e5893d9cb894bb6dfdad2519aca" kind="function"><name>ConfigureServices</name></member>
+    <member refid="classmo_1_1_startup_1a8e46c82f7dc217fee304aa18386f0a62" kind="function"><name>Configure</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_builder" kind="namespace"><name>Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_hosting" kind="namespace"><name>Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_http" kind="namespace"><name>Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_https_policy" kind="namespace"><name>Microsoft::AspNetCore::HttpsPolicy</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core" kind="namespace"><name>Microsoft::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_configuration" kind="namespace"><name>Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_hosting" kind="namespace"><name>Microsoft::Extensions::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_logging" kind="namespace"><name>Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="namespacemo" kind="namespace"><name>mo</name>
+  </compound>
+  <compound refid="namespacemo_1_1_controllers" kind="namespace"><name>mo::Controllers</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models" kind="namespace"><name>mo::Models</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_avaliability" kind="namespace"><name>mo::Models::Avaliability</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_mobile_design" kind="namespace"><name>mo::Models::MobileDesign</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_monitoring_point" kind="namespace"><name>mo::Models::MonitoringPoint</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_order_model" kind="namespace"><name>mo::Models::OrderModel</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_performence" kind="namespace"><name>mo::Models::Performence</name>
+  </compound>
+  <compound refid="namespacemo_1_1_models_1_1_quality" kind="namespace"><name>mo::Models::Quality</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_avaliabilities_controller_8cs" kind="file"><name>AvaliabilitiesController.cs</name>
+  </compound>
+  <compound refid="_avaliability_8cs" kind="file"><name>Avaliability.cs</name>
+  </compound>
+  <compound refid="_avaliability_db_context_8cs" kind="file"><name>AvaliabilityDbContext.cs</name>
+  </compound>
+  <compound refid="_case_model_8cs" kind="file"><name>CaseModel.cs</name>
+  </compound>
+  <compound refid="_case_model_db_context_8cs" kind="file"><name>CaseModelDbContext.cs</name>
+  </compound>
+  <compound refid="_case_models_controller_8cs" kind="file"><name>CaseModelsController.cs</name>
+  </compound>
+  <compound refid="_customer_8cs" kind="file"><name>Customer.cs</name>
+  </compound>
+  <compound refid="_customers_controller_8cs" kind="file"><name>CustomersController.cs</name>
+  </compound>
+  <compound refid="_customers_db_context_8cs" kind="file"><name>CustomersDbContext.cs</name>
+  </compound>
+  <compound refid="_mobile_type_8cs" kind="file"><name>MobileType.cs</name>
+  </compound>
+  <compound refid="_mobile_type_db_context_8cs" kind="file"><name>MobileTypeDbContext.cs</name>
+  </compound>
+  <compound refid="_mobile_types_controller_8cs" kind="file"><name>MobileTypesController.cs</name>
+  </compound>
+  <compound refid="_monitoring_point_8cs" kind="file"><name>MonitoringPoint.cs</name>
+  </compound>
+  <compound refid="_monitoring_point_db_context_8cs" kind="file"><name>MonitoringPointDbContext.cs</name>
+  </compound>
+  <compound refid="_monitoring_points_controller_8cs" kind="file"><name>MonitoringPointsController.cs</name>
+  </compound>
+  <compound refid="_order_8cs" kind="file"><name>Order.cs</name>
+  </compound>
+  <compound refid="_order_db_context_8cs" kind="file"><name>OrderDbContext.cs</name>
+  </compound>
+  <compound refid="_order_line_8cs" kind="file"><name>OrderLine.cs</name>
+  </compound>
+  <compound refid="_order_line_db_context_8cs" kind="file"><name>OrderLineDbContext.cs</name>
+  </compound>
+  <compound refid="_order_lines_controller_8cs" kind="file"><name>OrderLinesController.cs</name>
+  </compound>
+  <compound refid="_orders_controller_8cs" kind="file"><name>OrdersController.cs</name>
+  </compound>
+  <compound refid="_performence_8cs" kind="file"><name>Performence.cs</name>
+  </compound>
+  <compound refid="_performence_db_context_8cs" kind="file"><name>PerformenceDbContext.cs</name>
+  </compound>
+  <compound refid="_performences_controller_8cs" kind="file"><name>PerformencesController.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_qualities_controller_8cs" kind="file"><name>QualitiesController.cs</name>
+  </compound>
+  <compound refid="_quality_8cs" kind="file"><name>Quality.cs</name>
+  </compound>
+  <compound refid="_quality_db_context_8cs" kind="file"><name>QualityDbContext.cs</name>
+  </compound>
+  <compound refid="_startup_8cs" kind="file"><name>Startup.cs</name>
+  </compound>
+  <compound refid="dir_e04ae2849dfa520b4ee2c9f7e9ff15de" kind="dir"><name>C:/Users/Balkis/Desktop</name>
+  </compound>
+  <compound refid="dir_0aa5944eea54a68ae77158934dcd3636" kind="dir"><name>C:/Users/Balkis/Desktop/mo/mo</name>
+  </compound>
+  <compound refid="dir_53c34e2a17fbba451e60c389208e01e1" kind="dir"><name>C:/Users/Balkis/Desktop/mo</name>
+  </compound>
+</doxygenindex>

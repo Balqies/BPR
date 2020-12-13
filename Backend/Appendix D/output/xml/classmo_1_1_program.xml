@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>mo::Program</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmo_1_1_program_1a7667bde14374cd5708479c9aba272d39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void mo.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Program.cs" line="14" column="28" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Program.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_program_1aab92a95ab42de8793115daf623effef5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder mo.Program.CreateHostBuilder</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CreateHostBuilder</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Program.cs" line="19" column="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Program.cs" line="12" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Program.cs" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_program_1aab92a95ab42de8793115daf623effef5" prot="public" virt="non-virtual"><scope>mo::Program</scope><name>CreateHostBuilder</name></member>
+      <member refid="classmo_1_1_program_1a7667bde14374cd5708479c9aba272d39" prot="public" virt="non-virtual"><scope>mo::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

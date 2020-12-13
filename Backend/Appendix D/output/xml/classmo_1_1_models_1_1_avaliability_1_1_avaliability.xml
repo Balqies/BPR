@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::Avaliability::Avaliability</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ac3ece6e9ca4d5812ed58eb5dc9e8916e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Avaliability.Avaliability.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a3ac0a51ef10277ac87cceb9f75d82d6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Avaliability.Avaliability.monitoringPointId</definition>
+        <argsstring></argsstring>
+        <name>monitoringPointId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="11" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ad44a9565910da680cb8a8625751839b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Avaliability.Avaliability.planedProductionTime</definition>
+        <argsstring></argsstring>
+        <name>planedProductionTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="12" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a4f80e7aab2732ea129362ff366af215c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Avaliability.Avaliability.runningTime</definition>
+        <argsstring></argsstring>
+        <name>runningTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="13" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a88eb2a80063c99508a04e9a6c12cc098" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime mo.Models.Avaliability.Avaliability.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="14" column="25" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a88eb2a80063c99508a04e9a6c12cc098" prot="public" virt="non-virtual"><scope>mo::Models::Avaliability::Avaliability</scope><name>date</name></member>
+      <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ac3ece6e9ca4d5812ed58eb5dc9e8916e" prot="public" virt="non-virtual"><scope>mo::Models::Avaliability::Avaliability</scope><name>id</name></member>
+      <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a3ac0a51ef10277ac87cceb9f75d82d6b" prot="public" virt="non-virtual"><scope>mo::Models::Avaliability::Avaliability</scope><name>monitoringPointId</name></member>
+      <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1ad44a9565910da680cb8a8625751839b5" prot="public" virt="non-virtual"><scope>mo::Models::Avaliability::Avaliability</scope><name>planedProductionTime</name></member>
+      <member refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_1a4f80e7aab2732ea129362ff366af215c" prot="public" virt="non-virtual"><scope>mo::Models::Avaliability::Avaliability</scope><name>runningTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

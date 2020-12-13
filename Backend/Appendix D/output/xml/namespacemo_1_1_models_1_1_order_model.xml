@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacemo_1_1_models_1_1_order_model" kind="namespace" language="C#">
+    <compoundname>mo::Models::OrderModel</compoundname>
+    <innerclass refid="classmo_1_1_models_1_1_order_model_1_1_order" prot="public">mo::Models::OrderModel::Order</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_order_model_1_1_order_db_context" prot="public">mo::Models::OrderModel::OrderDbContext</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_order_model_1_1_order_line" prot="public">mo::Models::OrderModel::OrderLine</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context" prot="public">mo::Models::OrderModel::OrderLineDbContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Order.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

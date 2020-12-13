@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::MobileDesign::CaseModelDbContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ada263fca17960e1df82c40926765b613" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref> &gt;</type>
+        <definition>DbSet&lt;CaseModel&gt; mo.Models.MobileDesign.CaseModelDbContext.CaseModels</definition>
+        <argsstring></argsstring>
+        <name>CaseModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" line="11" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1a494e0915f45ba757f75345ce2c97c465" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Models.MobileDesign.CaseModelDbContext.CaseModelDbContext</definition>
+        <argsstring>(DbContextOptions&lt; CaseModelDbContext &gt; options)</argsstring>
+        <name>CaseModelDbContext</name>
+        <param>
+          <type>DbContextOptions&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context" kindref="compound">CaseModelDbContext</ref> &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" line="14" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ae3e51fe55db16e21853e56b52da8191e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void mo.Models.MobileDesign.CaseModelDbContext.OnModelCreating</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" line="17" column="33" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Models.MobileDesign.CaseModelDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Models.MobileDesign.CaseModelDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" line="9" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelDbContext.cs" bodystart="10" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1a494e0915f45ba757f75345ce2c97c465" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::CaseModelDbContext</scope><name>CaseModelDbContext</name></member>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ada263fca17960e1df82c40926765b613" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::CaseModelDbContext</scope><name>CaseModels</name></member>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context_1ae3e51fe55db16e21853e56b52da8191e" prot="protected" virt="non-virtual"><scope>mo::Models::MobileDesign::CaseModelDbContext</scope><name>OnModelCreating</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

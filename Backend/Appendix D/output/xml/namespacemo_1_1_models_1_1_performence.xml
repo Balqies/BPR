@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacemo_1_1_models_1_1_performence" kind="namespace" language="C#">
+    <compoundname>mo::Models::Performence</compoundname>
+    <innerclass refid="classmo_1_1_models_1_1_performence_1_1_performence" prot="public">mo::Models::Performence::Performence</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context" prot="public">mo::Models::Performence::PerformenceDbContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Performence.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

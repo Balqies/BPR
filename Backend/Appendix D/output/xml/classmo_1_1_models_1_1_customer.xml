@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_customer" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::Customer</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1af0f14eb02d1b42bea2b992da2413a926" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Customer.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1adbf204ea0f7fd633975882f82b990a0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string mo.Models.Customer.firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="11" column="23" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1a6988ddc8c5a5c1282ea42f405ec32258" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string mo.Models.Customer.lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="12" column="23" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1a1b32a5aa360383310342cd7679b84a2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string mo.Models.Customer.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="13" column="23" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1a6f096e7793842290b1561b9a4cbd50f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Customer.mobile</definition>
+        <argsstring></argsstring>
+        <name>mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="14" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1ae18752ddf4653c35ab676e40adf822ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string mo.Models.Customer.city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="15" column="23" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_customer_1a44a7cb06a9ec30208ffcbe5e44c86a4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime mo.Models.Customer.dateOfCreation</definition>
+        <argsstring></argsstring>
+        <name>dateOfCreation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="16" column="25" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Customer.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_customer_1ae18752ddf4653c35ab676e40adf822ad" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>city</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1a44a7cb06a9ec30208ffcbe5e44c86a4f" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>dateOfCreation</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1a1b32a5aa360383310342cd7679b84a2a" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>email</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1adbf204ea0f7fd633975882f82b990a0c" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>firstName</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1af0f14eb02d1b42bea2b992da2413a926" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>id</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1a6988ddc8c5a5c1282ea42f405ec32258" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>lastName</name></member>
+      <member refid="classmo_1_1_models_1_1_customer_1a6f096e7793842290b1561b9a4cbd50f7" prot="public" virt="non-virtual"><scope>mo::Models::Customer</scope><name>mobile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

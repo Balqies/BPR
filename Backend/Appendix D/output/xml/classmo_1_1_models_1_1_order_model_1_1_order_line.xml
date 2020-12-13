@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_order_model_1_1_order_line" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::OrderModel::OrderLine</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_line_1a34f0bd5dbe5775969e98ebfb0cc67593" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.OrderLine.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_line_1a231527c0e4afea40585901763b89ce19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.OrderLine.caseModelId</definition>
+        <argsstring></argsstring>
+        <name>caseModelId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" line="12" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_line_1ae2a19ca74b9e043db405029464fb943d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.OrderLine.mobileTypeId</definition>
+        <argsstring></argsstring>
+        <name>mobileTypeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" line="14" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_line_1a14ac905fe3c71f240f055ffa3f2533a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.OrderLine.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" line="16" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLine.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a14ac905fe3c71f240f055ffa3f2533a1" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::OrderLine</scope><name>amount</name></member>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a231527c0e4afea40585901763b89ce19" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::OrderLine</scope><name>caseModelId</name></member>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1a34f0bd5dbe5775969e98ebfb0cc67593" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::OrderLine</scope><name>id</name></member>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_line_1ae2a19ca74b9e043db405029464fb943d" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::OrderLine</scope><name>mobileTypeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_order_model_1_1_order" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::OrderModel::Order</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_1ab85f1c6e34226ff8600d5669a259ee6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.Order.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Order.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Order.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_1adb5c54e427e0d120476fd010f51b1f9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.OrderModel.Order.customerId</definition>
+        <argsstring></argsstring>
+        <name>customerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Order.cs" line="11" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Order.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_order_model_1_1_order_1a73bb5b23c228e0d42a7c208c59f44ef1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime mo.Models.OrderModel.Order.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Order.cs" line="13" column="25" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Order.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Order.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Order.cs" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1adb5c54e427e0d120476fd010f51b1f9c" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::Order</scope><name>customerId</name></member>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1a73bb5b23c228e0d42a7c208c59f44ef1" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::Order</scope><name>date</name></member>
+      <member refid="classmo_1_1_models_1_1_order_model_1_1_order_1ab85f1c6e34226ff8600d5669a259ee6e" prot="public" virt="non-virtual"><scope>mo::Models::OrderModel::Order</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_order_lines_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::OrderLinesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_order_lines_controller_1a7d086b44ab6254894f6b45fa6c3a242e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context" kindref="compound">OrderLineDbContext</ref></type>
+        <definition>readonly OrderLineDbContext mo.Controllers.OrderLinesController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="16" column="45" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1adb127ccaa91437231052d8e16a82f97d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.OrderLinesController.OrderLinesController</definition>
+        <argsstring>(OrderLineDbContext context)</argsstring>
+        <name>OrderLinesController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context" kindref="compound">OrderLineDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1a0ccc72ee0ae1b56e954bd704fb63890d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;OrderLine&gt; &gt; &gt; mo.Controllers.OrderLinesController.GetOrderLines</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrderLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1a9bc6609fc750a20d93fb6d71dae88e64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;OrderLine&gt; &gt; mo.Controllers.OrderLinesController.GetOrderLine</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetOrderLine</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1a776c21571139bad664d0cc78bad27538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.OrderLinesController.PutOrderLine</definition>
+        <argsstring>(int id, OrderLine orderLine)</argsstring>
+        <name>PutOrderLine</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref></type>
+          <declname>orderLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1a08c0962619bd96369f5b842fe6b5def6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;OrderLine&gt; &gt; mo.Controllers.OrderLinesController.PostOrderLine</definition>
+        <argsstring>(OrderLine orderLine)</argsstring>
+        <name>PostOrderLine</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref></type>
+          <declname>orderLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1a506952f227726442a4acfed2cffa95eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_order_model_1_1_order_line" kindref="compound">OrderLine</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;OrderLine&gt; &gt; mo.Controllers.OrderLinesController.DeleteOrderLine</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteOrderLine</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_order_lines_controller_1ab39dab88da94c9d190bbbb70607b45eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.OrderLinesController.OrderLineExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>OrderLineExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.OrderLinesController</label>
+        <link refid="classmo_1_1_controllers_1_1_order_lines_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>mo.Models.OrderModel.OrderLineDbContext</label>
+        <link refid="classmo_1_1_models_1_1_order_model_1_1_order_line_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.OrderLinesController</label>
+        <link refid="classmo_1_1_controllers_1_1_order_lines_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/OrderLinesController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a7d086b44ab6254894f6b45fa6c3a242e" prot="private" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a506952f227726442a4acfed2cffa95eb" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>DeleteOrderLine</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a9bc6609fc750a20d93fb6d71dae88e64" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>GetOrderLine</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a0ccc72ee0ae1b56e954bd704fb63890d" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>GetOrderLines</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1ab39dab88da94c9d190bbbb70607b45eb" prot="private" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>OrderLineExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1adb127ccaa91437231052d8e16a82f97d" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>OrderLinesController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a08c0962619bd96369f5b842fe6b5def6" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>PostOrderLine</name></member>
+      <member refid="classmo_1_1_controllers_1_1_order_lines_controller_1a776c21571139bad664d0cc78bad27538" prot="public" virt="non-virtual"><scope>mo::Controllers::OrderLinesController</scope><name>PutOrderLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

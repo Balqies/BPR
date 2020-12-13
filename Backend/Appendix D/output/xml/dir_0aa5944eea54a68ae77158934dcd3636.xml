@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_0aa5944eea54a68ae77158934dcd3636" kind="dir">
+    <compoundname>C:/Users/Balkis/Desktop/mo/mo</compoundname>
+    <innerfile refid="_avaliabilities_controller_8cs">AvaliabilitiesController.cs</innerfile>
+    <innerfile refid="_avaliability_8cs">Avaliability.cs</innerfile>
+    <innerfile refid="_avaliability_db_context_8cs">AvaliabilityDbContext.cs</innerfile>
+    <innerfile refid="_case_model_8cs">CaseModel.cs</innerfile>
+    <innerfile refid="_case_model_db_context_8cs">CaseModelDbContext.cs</innerfile>
+    <innerfile refid="_case_models_controller_8cs">CaseModelsController.cs</innerfile>
+    <innerfile refid="_customer_8cs">Customer.cs</innerfile>
+    <innerfile refid="_customers_controller_8cs">CustomersController.cs</innerfile>
+    <innerfile refid="_customers_db_context_8cs">CustomersDbContext.cs</innerfile>
+    <innerfile refid="_mobile_type_8cs">MobileType.cs</innerfile>
+    <innerfile refid="_mobile_type_db_context_8cs">MobileTypeDbContext.cs</innerfile>
+    <innerfile refid="_mobile_types_controller_8cs">MobileTypesController.cs</innerfile>
+    <innerfile refid="_monitoring_point_8cs">MonitoringPoint.cs</innerfile>
+    <innerfile refid="_monitoring_point_db_context_8cs">MonitoringPointDbContext.cs</innerfile>
+    <innerfile refid="_monitoring_points_controller_8cs">MonitoringPointsController.cs</innerfile>
+    <innerfile refid="_order_8cs">Order.cs</innerfile>
+    <innerfile refid="_order_db_context_8cs">OrderDbContext.cs</innerfile>
+    <innerfile refid="_order_line_8cs">OrderLine.cs</innerfile>
+    <innerfile refid="_order_line_db_context_8cs">OrderLineDbContext.cs</innerfile>
+    <innerfile refid="_order_lines_controller_8cs">OrderLinesController.cs</innerfile>
+    <innerfile refid="_orders_controller_8cs">OrdersController.cs</innerfile>
+    <innerfile refid="_performence_8cs">Performence.cs</innerfile>
+    <innerfile refid="_performence_db_context_8cs">PerformenceDbContext.cs</innerfile>
+    <innerfile refid="_performences_controller_8cs">PerformencesController.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_qualities_controller_8cs">QualitiesController.cs</innerfile>
+    <innerfile refid="_quality_8cs">Quality.cs</innerfile>
+    <innerfile refid="_quality_db_context_8cs">QualityDbContext.cs</innerfile>
+    <innerfile refid="_startup_8cs">Startup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/"/>
+  </compounddef>
+</doxygen>

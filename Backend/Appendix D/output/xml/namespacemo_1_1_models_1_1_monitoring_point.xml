@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacemo_1_1_models_1_1_monitoring_point" kind="namespace" language="C#">
+    <compoundname>mo::Models::MonitoringPoint</compoundname>
+    <innerclass refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point" prot="public">mo::Models::MonitoringPoint::MonitoringPoint</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_monitoring_point_1_1_monitoring_point_db_context" prot="public">mo::Models::MonitoringPoint::MonitoringPointDbContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/MonitoringPoint.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

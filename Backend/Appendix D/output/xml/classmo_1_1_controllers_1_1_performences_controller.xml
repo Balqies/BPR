@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_performences_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::PerformencesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_performences_controller_1acc76f83cb3a4fef0de61b1e0b516220b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context" kindref="compound">PerformenceDbContext</ref></type>
+        <definition>readonly PerformenceDbContext mo.Controllers.PerformencesController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="16" column="47" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1afe9833380c565f1a9beebe246b63f2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.PerformencesController.PerformencesController</definition>
+        <argsstring>(PerformenceDbContext context)</argsstring>
+        <name>PerformencesController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context" kindref="compound">PerformenceDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1a2e6251b1a1a1612882985d177910676b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;Performence&gt; &gt; &gt; mo.Controllers.PerformencesController.GetPerformence</definition>
+        <argsstring>()</argsstring>
+        <name>GetPerformence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1a57a0c497775d9c733cb1251e7405f23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Performence&gt; &gt; mo.Controllers.PerformencesController.GetPerformence</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPerformence</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1a0724ce346319df90cd4561bd2d3f10c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.PerformencesController.PutPerformence</definition>
+        <argsstring>(int id, Performence performence)</argsstring>
+        <name>PutPerformence</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref></type>
+          <declname>performence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1acdbeae558b0998b06352cbedaad695d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Performence&gt; &gt; mo.Controllers.PerformencesController.PostPerformence</definition>
+        <argsstring>(Performence performence)</argsstring>
+        <name>PostPerformence</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref></type>
+          <declname>performence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1ad51582ff1260b7aaeb274c29ff662277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_performence_1_1_performence" kindref="compound">Performence</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Performence&gt; &gt; mo.Controllers.PerformencesController.DeletePerformence</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeletePerformence</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_performences_controller_1a5aa5274884f0d9ee41feb74d21bf3871" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.PerformencesController.PerformenceExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>PerformenceExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.PerformencesController</label>
+        <link refid="classmo_1_1_controllers_1_1_performences_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.PerformencesController</label>
+        <link refid="classmo_1_1_controllers_1_1_performences_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mo.Models.Performence.PerformenceDbContext</label>
+        <link refid="classmo_1_1_models_1_1_performence_1_1_performence_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/PerformencesController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1acc76f83cb3a4fef0de61b1e0b516220b" prot="private" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1ad51582ff1260b7aaeb274c29ff662277" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>DeletePerformence</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1a2e6251b1a1a1612882985d177910676b" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>GetPerformence</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1a57a0c497775d9c733cb1251e7405f23b" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>GetPerformence</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1a5aa5274884f0d9ee41feb74d21bf3871" prot="private" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>PerformenceExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1afe9833380c565f1a9beebe246b63f2aa" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>PerformencesController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1acdbeae558b0998b06352cbedaad695d4" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>PostPerformence</name></member>
+      <member refid="classmo_1_1_controllers_1_1_performences_controller_1a0724ce346319df90cd4561bd2d3f10c3" prot="public" virt="non-virtual"><scope>mo::Controllers::PerformencesController</scope><name>PutPerformence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

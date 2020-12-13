@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_customers_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::CustomersController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_customers_controller_1a4125b3150bab4bb2863c2b6f3beb140c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_customers_db_context" kindref="compound">CustomersDbContext</ref></type>
+        <definition>readonly CustomersDbContext mo.Controllers.CustomersController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="16" column="45" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1ad2132100fb1add687cbe28b05b51dba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.CustomersController.CustomersController</definition>
+        <argsstring>(CustomersDbContext context)</argsstring>
+        <name>CustomersController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_customers_db_context" kindref="compound">CustomersDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1aa06c5daee1b18c36a19c79a4086cd3d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;Customer&gt; &gt; &gt; mo.Controllers.CustomersController.GetCustomers</definition>
+        <argsstring>()</argsstring>
+        <name>GetCustomers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1a207ba7765300147844f522bde9e1d66e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Customer&gt; &gt; mo.Controllers.CustomersController.GetCustomer</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetCustomer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1a72ca0a3b175ef545789156019dd353d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.CustomersController.PutCustomer</definition>
+        <argsstring>(int id, Customer customer)</argsstring>
+        <name>PutCustomer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1a61b3b3103a85eff03ab3c4fe4e3ed1e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Customer&gt; &gt; mo.Controllers.CustomersController.PostCustomer</definition>
+        <argsstring>(Customer customer)</argsstring>
+        <name>PostCustomer</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1a671393a59f3beb418842e5e1932fba44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_customer" kindref="compound">Customer</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Customer&gt; &gt; mo.Controllers.CustomersController.DeleteCustomer</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteCustomer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_customers_controller_1ade61de3abb76d7e436a6052659d478bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.CustomersController.CustomerExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>CustomerExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.CustomersController</label>
+        <link refid="classmo_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>mo.Models.CustomersDbContext</label>
+        <link refid="classmo_1_1_models_1_1_customers_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.CustomersController</label>
+        <link refid="classmo_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CustomersController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1a4125b3150bab4bb2863c2b6f3beb140c" prot="private" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1ade61de3abb76d7e436a6052659d478bc" prot="private" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>CustomerExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1ad2132100fb1add687cbe28b05b51dba5" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>CustomersController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1a671393a59f3beb418842e5e1932fba44" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>DeleteCustomer</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1a207ba7765300147844f522bde9e1d66e" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>GetCustomer</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1aa06c5daee1b18c36a19c79a4086cd3d1" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>GetCustomers</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1a61b3b3103a85eff03ab3c4fe4e3ed1e7" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>PostCustomer</name></member>
+      <member refid="classmo_1_1_controllers_1_1_customers_controller_1a72ca0a3b175ef545789156019dd353d6" prot="public" virt="non-virtual"><scope>mo::Controllers::CustomersController</scope><name>PutCustomer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

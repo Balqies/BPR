@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::MobileDesign::MobileType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a3cee6c198b0cc282b682c9d21cc2a7ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.MobileDesign.MobileType.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a2f9e5200bea5be77f8eab8bc0c306e30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string mo.Models.MobileDesign.MobileType.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" line="11" column="23" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/MobileType.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a3cee6c198b0cc282b682c9d21cc2a7ca" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::MobileType</scope><name>id</name></member>
+      <member refid="classmo_1_1_models_1_1_mobile_design_1_1_mobile_type_1a2f9e5200bea5be77f8eab8bc0c306e30" prot="public" virt="non-virtual"><scope>mo::Models::MobileDesign::MobileType</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

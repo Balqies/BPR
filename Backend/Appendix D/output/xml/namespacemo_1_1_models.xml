@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacemo_1_1_models" kind="namespace" language="C#">
+    <compoundname>mo::Models</compoundname>
+    <innerclass refid="classmo_1_1_models_1_1_customer" prot="public">mo::Models::Customer</innerclass>
+    <innerclass refid="classmo_1_1_models_1_1_customers_db_context" prot="public">mo::Models::CustomersDbContext</innerclass>
+    <innernamespace refid="namespacemo_1_1_models_1_1_avaliability">mo::Models::Avaliability</innernamespace>
+    <innernamespace refid="namespacemo_1_1_models_1_1_mobile_design">mo::Models::MobileDesign</innernamespace>
+    <innernamespace refid="namespacemo_1_1_models_1_1_monitoring_point">mo::Models::MonitoringPoint</innernamespace>
+    <innernamespace refid="namespacemo_1_1_models_1_1_order_model">mo::Models::OrderModel</innernamespace>
+    <innernamespace refid="namespacemo_1_1_models_1_1_performence">mo::Models::Performence</innernamespace>
+    <innernamespace refid="namespacemo_1_1_models_1_1_quality">mo::Models::Quality</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Avaliability.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_models_1_1_quality_1_1_quality" kind="class" language="C#" prot="public">
+    <compoundname>mo::Models::Quality::Quality</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classmo_1_1_models_1_1_quality_1_1_quality_1aaa96a28b7edeaf6037b8b1c8eb9998ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Quality.Quality.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="10" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_quality_1_1_quality_1a798087be76c076682954c15e5bc1d9bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Quality.Quality.monitoringPointId</definition>
+        <argsstring></argsstring>
+        <name>monitoringPointId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="11" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_quality_1_1_quality_1aae267c09641966f376d04505d54da2f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Quality.Quality.goodProduct</definition>
+        <argsstring></argsstring>
+        <name>goodProduct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="12" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_quality_1_1_quality_1a9a626cb1af0a080c0f937e94fd315520" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int mo.Models.Quality.Quality.totalProduct</definition>
+        <argsstring></argsstring>
+        <name>totalProduct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="13" column="20" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="classmo_1_1_models_1_1_quality_1_1_quality_1a6a5700d01b9840ceb3b8a00b547d554a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime mo.Models.Quality.Quality.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="14" column="25" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" line="8" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/Quality.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a6a5700d01b9840ceb3b8a00b547d554a" prot="public" virt="non-virtual"><scope>mo::Models::Quality::Quality</scope><name>date</name></member>
+      <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1aae267c09641966f376d04505d54da2f6" prot="public" virt="non-virtual"><scope>mo::Models::Quality::Quality</scope><name>goodProduct</name></member>
+      <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1aaa96a28b7edeaf6037b8b1c8eb9998ad" prot="public" virt="non-virtual"><scope>mo::Models::Quality::Quality</scope><name>id</name></member>
+      <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a798087be76c076682954c15e5bc1d9bf" prot="public" virt="non-virtual"><scope>mo::Models::Quality::Quality</scope><name>monitoringPointId</name></member>
+      <member refid="classmo_1_1_models_1_1_quality_1_1_quality_1a9a626cb1af0a080c0f937e94fd315520" prot="public" virt="non-virtual"><scope>mo::Models::Quality::Quality</scope><name>totalProduct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_avaliabilities_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::AvaliabilitiesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1aa421aaddc5230207f351619e162480fc" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context" kindref="compound">AvaliabilityDbContext</ref></type>
+        <definition>readonly AvaliabilityDbContext mo.Controllers.AvaliabilitiesController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="16" column="48" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad7538ab8ea74afb685fff1c9a8873833" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.AvaliabilitiesController.AvaliabilitiesController</definition>
+        <argsstring>(AvaliabilityDbContext context)</argsstring>
+        <name>AvaliabilitiesController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context" kindref="compound">AvaliabilityDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad3d30994fd1da8fd6e6997685dbde27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;Avaliability&gt; &gt; &gt; mo.Controllers.AvaliabilitiesController.GetAvaliabilitys</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvaliabilitys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1ae58e52ddc2901d525667df2e09bb1f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Avaliability&gt; &gt; mo.Controllers.AvaliabilitiesController.GetAvaliability</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetAvaliability</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1a09f16114a05765037ce7d3b4f3f0a4b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.AvaliabilitiesController.PutAvaliability</definition>
+        <argsstring>(int id, Avaliability avaliability)</argsstring>
+        <name>PutAvaliability</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref></type>
+          <declname>avaliability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1aafd3f2936a4c21aa69b01a2b95a81189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Avaliability&gt; &gt; mo.Controllers.AvaliabilitiesController.PostAvaliability</definition>
+        <argsstring>(Avaliability avaliability)</argsstring>
+        <name>PostAvaliability</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref></type>
+          <declname>avaliability</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1a6001bf19f5b0f6995e4e9983d2f874bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability" kindref="compound">Avaliability</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;Avaliability&gt; &gt; mo.Controllers.AvaliabilitiesController.DeleteAvaliability</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteAvaliability</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_avaliabilities_controller_1a2cf068bfb7fcaa829b3996dcc7b006ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.AvaliabilitiesController.AvaliabilityExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>AvaliabilityExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.AvaliabilitiesController</label>
+        <link refid="classmo_1_1_controllers_1_1_avaliabilities_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>mo.Models.Avaliability.AvaliabilityDbContext</label>
+        <link refid="classmo_1_1_models_1_1_avaliability_1_1_avaliability_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.AvaliabilitiesController</label>
+        <link refid="classmo_1_1_controllers_1_1_avaliabilities_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1aa421aaddc5230207f351619e162480fc" prot="private" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad7538ab8ea74afb685fff1c9a8873833" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>AvaliabilitiesController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a2cf068bfb7fcaa829b3996dcc7b006ac" prot="private" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>AvaliabilityExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a6001bf19f5b0f6995e4e9983d2f874bd" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>DeleteAvaliability</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ae58e52ddc2901d525667df2e09bb1f10" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>GetAvaliability</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1ad3d30994fd1da8fd6e6997685dbde27d" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>GetAvaliabilitys</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1aafd3f2936a4c21aa69b01a2b95a81189" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>PostAvaliability</name></member>
+      <member refid="classmo_1_1_controllers_1_1_avaliabilities_controller_1a09f16114a05765037ce7d3b4f3f0a4b5" prot="public" virt="non-virtual"><scope>mo::Controllers::AvaliabilitiesController</scope><name>PutAvaliability</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

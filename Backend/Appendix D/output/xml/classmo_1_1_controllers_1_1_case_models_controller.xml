@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classmo_1_1_controllers_1_1_case_models_controller" kind="class" language="C#" prot="public">
+    <compoundname>mo::Controllers::CaseModelsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmo_1_1_controllers_1_1_case_models_controller_1a164f6db5f4b1d9df71159eb50d6a4834" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context" kindref="compound">CaseModelDbContext</ref></type>
+        <definition>readonly CaseModelDbContext mo.Controllers.CaseModelsController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="16" column="45" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1af1424dc95c114549e08a606c1f4e0620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mo.Controllers.CaseModelsController.CaseModelsController</definition>
+        <argsstring>(CaseModelDbContext context)</argsstring>
+        <name>CaseModelsController</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context" kindref="compound">CaseModelDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="18" column="16" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1a6d9d68b5a70bc978ba40077bd613f472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref> &gt; &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;IEnumerable&lt;CaseModel&gt; &gt; &gt; mo.Controllers.CaseModelsController.GetCaseModels</definition>
+        <argsstring>()</argsstring>
+        <name>GetCaseModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="25" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1a79bbb85fb85fa1d3a14437deaa73f151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;CaseModel&gt; &gt; mo.Controllers.CaseModelsController.GetCaseModel</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetCaseModel</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="32" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1aaa487ce0204c29988095ac0f8ac74b2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; mo.Controllers.CaseModelsController.PutCaseModel</definition>
+        <argsstring>(int id, CaseModel caseModel)</argsstring>
+        <name>PutCaseModel</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref></type>
+          <declname>caseModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="48" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="48" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1a09e370f8ba8c2a2b0408eb869ee43b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;CaseModel&gt; &gt; mo.Controllers.CaseModelsController.PostCaseModel</definition>
+        <argsstring>(CaseModel caseModel)</argsstring>
+        <name>PostCaseModel</name>
+        <param>
+          <type><ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref></type>
+          <declname>caseModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="80" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1aa04d16c53d87d9b75970ab1378f6bf58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model" kindref="compound">CaseModel</ref> &gt; &gt;</type>
+        <definition>async Task&lt;ActionResult&lt;CaseModel&gt; &gt; mo.Controllers.CaseModelsController.DeleteCaseModel</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteCaseModel</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="90" column="27" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmo_1_1_controllers_1_1_case_models_controller_1a80b2a2445f4d75621c80a97f37bc415d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool mo.Controllers.CaseModelsController.CaseModelExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>CaseModelExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="104" column="22" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.CaseModelsController</label>
+        <link refid="classmo_1_1_controllers_1_1_case_models_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>mo.Controllers.CaseModelsController</label>
+        <link refid="classmo_1_1_controllers_1_1_case_models_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>mo.Models.MobileDesign.CaseModelDbContext</label>
+        <link refid="classmo_1_1_models_1_1_mobile_design_1_1_case_model_db_context"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" line="14" column="11" bodyfile="C:/Users/Balkis/Desktop/mo/mo/CaseModelsController.cs" bodystart="15" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a164f6db5f4b1d9df71159eb50d6a4834" prot="private" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>_context</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a80b2a2445f4d75621c80a97f37bc415d" prot="private" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>CaseModelExists</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1af1424dc95c114549e08a606c1f4e0620" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>CaseModelsController</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1aa04d16c53d87d9b75970ab1378f6bf58" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>DeleteCaseModel</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a79bbb85fb85fa1d3a14437deaa73f151" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>GetCaseModel</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a6d9d68b5a70bc978ba40077bd613f472" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>GetCaseModels</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1a09e370f8ba8c2a2b0408eb869ee43b9b" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>PostCaseModel</name></member>
+      <member refid="classmo_1_1_controllers_1_1_case_models_controller_1aaa487ce0204c29988095ac0f8ac74b2e" prot="public" virt="non-virtual"><scope>mo::Controllers::CaseModelsController</scope><name>PutCaseModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

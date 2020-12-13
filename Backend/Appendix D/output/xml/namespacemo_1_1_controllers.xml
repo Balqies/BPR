@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacemo_1_1_controllers" kind="namespace" language="C#">
+    <compoundname>mo::Controllers</compoundname>
+    <innerclass refid="classmo_1_1_controllers_1_1_avaliabilities_controller" prot="public">mo::Controllers::AvaliabilitiesController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_case_models_controller" prot="public">mo::Controllers::CaseModelsController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_customers_controller" prot="public">mo::Controllers::CustomersController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_mobile_types_controller" prot="public">mo::Controllers::MobileTypesController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_monitoring_points_controller" prot="public">mo::Controllers::MonitoringPointsController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_order_lines_controller" prot="public">mo::Controllers::OrderLinesController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_orders_controller" prot="public">mo::Controllers::OrdersController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_performences_controller" prot="public">mo::Controllers::PerformencesController</innerclass>
+    <innerclass refid="classmo_1_1_controllers_1_1_qualities_controller" prot="public">mo::Controllers::QualitiesController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Balkis/Desktop/mo/mo/AvaliabilitiesController.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>
