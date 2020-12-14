@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\mo\\mo\\mo.csproj": {}
+    "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\Production Monitoring APIs\\mo\\mo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\mo\\mo\\mo.csproj": {
+    "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\Production Monitoring APIs\\mo\\mo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\mo\\mo\\mo.csproj",
+        "projectUniqueName": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\Production Monitoring APIs\\mo\\mo.csproj",
         "projectName": "mo",
-        "projectPath": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\mo\\mo\\mo.csproj",
+        "projectPath": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\Production Monitoring APIs\\mo\\mo.csproj",
         "packagesPath": "C:\\Users\\Balkis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\mo\\mo\\obj\\",
+        "outputPath": "C:\\Users\\Balkis\\Documents\\GitHub\\BPR\\Backend\\Appendix F\\Production Monitoring APIs\\mo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Balkis\\AppData\\Roaming\\NuGet\\NuGet.Config",
