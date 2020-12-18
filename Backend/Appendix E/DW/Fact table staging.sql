@@ -59,22 +59,11 @@
 
 
 
-	-- clean up 
 
 
 
 
-
-	-- filtering the data and remove NULL values if it exists 
-		UPDATE [dbo].[TEM_FACT_OEE] SET planedProductionTime = -4 WHERE planedProductionTime IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET runningTime = -4  WHERE runningTime IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET avaliability_value = -4  WHERE avaliability_value IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET actualOutput = -4 WHERE actualOutput IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET thereticalOutput = -4  WHERE thereticalOutput IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET goodProduct = -4  WHERE goodProduct IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET quality_value = -4 WHERE quality_value IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET performence_value = -4  WHERE performence_value IS NULL;
-		 UPDATE [dbo].[TEM_FACT_OEE] SET OEE_value = -4  WHERE OEE_value IS NULL;
+	
 
 	-------------------populate to the fact table
 
